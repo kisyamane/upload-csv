@@ -1,18 +1,13 @@
 {
-    "name": "kisyamane/pain",
     "autoload": {
         "psr-4": {
-            "Kisyamane\\Pain\\": "src/",
             "App\\": "app/"
         }
     },
-    "authors": [
-        {
-            "name": "kisyamane",
-            "email": "yuraserb05@gmail.com"
-        }
-    ],
     "require": {
         "symfony/dotenv": "^6.4"
+    },
+    "config": {
+        "optimize-autoloader": true
     }
 }
